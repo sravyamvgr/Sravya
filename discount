@@ -1,0 +1,15 @@
+#include<stdio.h>
+main()
+{
+int x,y,p,count=0;
+scanf("%d",&x);
+scanf("%d",&p);
+while(x!=0)
+{
+y=(x/100)*p;
+count=count+x;
+x=x-y;
+}
+printf("%d",count);
+}
+
